@@ -1,0 +1,151 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+header {
+  background-color: #282828;
+  color: whitesmoke;
+}
+section > h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+section > img {
+  width: 100%;
+}
+nav > ul {
+  margin: 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 15px;
+  padding: 25px;
+}
+
+ul > .burger {
+  margin-left: auto;
+}
+form > input {
+  padding: 10px 10px;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+input {
+  border: none;
+  border: 1px solid black;
+}
+
+input::placeholder {
+  color: grey;
+}
+
+input:focus {
+  color: #000;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+.icon {
+  width: 25px;
+}
+.item {
+  position: relative;
+}
+.caption {
+  margin: 0 25px;
+}
+.img-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+#modal {
+  background: antiquewhite;
+  border: 1px solid antiquewhite;
+  text-align: center;
+  width: 310px;
+  height: 455px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 3px;
+  padding: 15px;
+  box-shadow: 0px 5px 5px grey;
+  display: none;
+}
+.modal-close-btns {
+  text-align: end;
+}
+
+#modal-close-btn:hover{
+  color: #f51111;
+}
+
+#modal-close-btn {
+  color: #000;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+}
+#accept:hover{
+  background-color: #92fba7;
+
+}
+#accept{
+    background-color: #000;
+}
+#decline {
+  background-color: #f51111
+}
+#accept,
+#decline {
+  padding: 13px 22px;
+  font-family: inherit;
+  border-radius: 3px;
+  border: none;
+  color: whitesmoke;
+}
+.modal-btns {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 7px 0;
+}
+.modal-info {
+  line-height: 21px;
+  text-align: start;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.switch {
+  flex-direction: row-reverse;
+}
+.content {
+  text-align: center;
+  margin-top: 17px;
+}
+.content span {
+  color: red;
+}
+.gif {
+  width: 250px;
+  border-radius: 5px;
+}
